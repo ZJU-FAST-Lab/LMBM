@@ -1,9 +1,9 @@
 # LMBM
-Nonsmooth Unconstrained Optimization via Limited Memory Bundle Method
+Nonsmooth Unconstrained Optimization via [Limited Memory Bundle Method](https://link.springer.com/article/10.1007/s10107-006-0728-2)
 
 # Feature
 
-1. The solver is a __C++11__ wrapper for the __FORTRAN__ solver [LMBM](https://link.springer.com/article/10.1007/s10107-006-0728-2), which suits __Large-Scale Nonsmooth Unconstrained Nonlinear Optimization__.
+1. The solver is a __C++11__ wrapper for the __FORTRAN__ solver [LMBM](http://napsu.karmitsa.fi/lmbm/), which suits __Large-Scale Nonsmooth Unconstrained Nonlinear Optimization__.
 
 2. It is a substitution to [L-BFGS](https://github.com/ZJU-FAST-Lab/LBFGS-Lite) when nonsmooth optimization is inevitable. For example, nonsmoothness is quite common in various robotics applications where spatially discretized data is often incorporated into optimization problem.
 
@@ -25,4 +25,8 @@ Nonsmooth Unconstrained Optimization via Limited Memory Bundle Method
       make
       ./lmbm_example
 
-...more details and reference to be added ...
+# Reference
+
+1. Haarala, N., Miettinen, K. and Mäkelä, M.M., 2007. Globally convergent limited memory bundle method for large-scale nonsmooth optimization. Mathematical Programming, 109(1), pp.181-205.
+2. Karmitsa, N., 2007. LMBM–FORTRAN subroutines for Large-Scale nonsmooth minimization: User’s manual’. TUCS Technical Report, (856).
+3. Bagirov, A., Karmitsa, N. and Mäkelä, M.M., 2014. Introduction to Nonsmooth Optimization: theory, practice and software. Springer.
