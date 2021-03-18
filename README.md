@@ -16,7 +16,7 @@ Nonsmooth Unconstrained Optimization via Limited Memory Bundle Method
 
   Then a shared lib for LMBM is generated. Two files __lmbm.so__ and __lmbm.h__ are all you need for conducting nonsmooth optimization in any C++ application. The header file contains sufficient information about how the lib should be called and tuned.
   
-  A simple example is also provided where a nonsmooth function is minimized by LMBM. The CMakeList.txt shows how the lib should be linked by your own projects. Run the following commands to build and run the example.
+  A simple example is also provided where a nonsmooth function is minimized by LMBM. The CMakeList.txt shows how the lib should be linked by your own projects. Run the following commands to build and execute the example.
   
       cd ..
       mkdir build
