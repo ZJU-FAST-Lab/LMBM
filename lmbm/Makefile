@@ -2,7 +2,7 @@ FF = gfortran -O3 -Wall -fPIC
 
 CC = g++ -O3 -Wall -fPIC -std=c++11
 
-LIBS = -lm -lgfortran
+LIBS = -lgfortran
 
 all: lmbm_call.o lmbm_main.o lmbm_sub.o lmbm_math.o lmbm.o lmbm.so
 

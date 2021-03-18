@@ -9,7 +9,7 @@ Nonsmooth Unconstrained Optimization via Limited Memory Bundle Method
 
 # Building
 
-  To build the lib, first make sure you have gfortran, g++, make, and CMake installed. This toolchain is often installed by default in many Linux environments. Then, clone this repository and rename it LMBM. Now cd into this directory to build the shared lib for LMBM solver.
+  To build the lib, first make sure you have __gfortran__, __g++__, __make__, and __CMake__ installed. This toolchain is often installed by default in many Linux environments. Then, clone this repository and rename it LMBM. Now cd into this directory to build the shared lib for LMBM solver.
 
       cd LMBM/lmbm/
       make

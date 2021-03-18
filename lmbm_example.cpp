@@ -1,9 +1,8 @@
 #include "lmbm.h"
 
 #include <cstdio>
-#include <cmath>
 
-static int fcalls = 0;
+static int fcalls = -1;
 
 double costFunc(void *instance,
                 const double *x,
@@ -14,7 +13,7 @@ double costFunc(void *instance,
     double fx2 = x[0] * x[0] + x[1] * x[1] -
                  x[0] - x[1] - 1.0;
     double fx = fx1 > fx2 ? fx1 : fx2;
-    if (g != NULL)
+    if (g != nullptr)
     {
         if (fx1 > fx2)
         {
@@ -35,7 +34,8 @@ int main(int argc, char **argv)
 {
     int n = 2;
     double x[2] = {1.0, 1.0};
-    double f = INFINITY;
+    double f;
+    costFunc(nullptr, x, nullptr, 2);
     lmbm::lmbm_parameter_t param;
     lmbm::lmbm_optimize(n,
                         x,
