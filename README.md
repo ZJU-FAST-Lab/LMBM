@@ -29,4 +29,4 @@ Nonsmooth Unconstrained Optimization via [Limited Memory Bundle Method](https://
 
 1. Haarala, N., Miettinen, K. and Mäkelä, M.M., 2007. Globally convergent limited memory bundle method for large-scale nonsmooth optimization. Mathematical Programming, 109(1), pp.181-205.
 2. Karmitsa, N., 2007. LMBM–FORTRAN subroutines for Large-Scale nonsmooth minimization: User’s manual’. TUCS Technical Report, (856).
-3. Bagirov, A., Karmitsa, N. and Mäkelä, M.M., 2014. Introduction to Nonsmooth Optimization: theory, practice and software. Springer.
+3. Bagirov, A., Karmitsa, N. and Mäkelä, M.M., 2014. Introduction to Nonsmooth Optimization: Theory, Practice and Software. Springer.
